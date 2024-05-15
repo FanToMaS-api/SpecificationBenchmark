@@ -1,7 +1,6 @@
-using System;
 using System.Linq.Expressions;
 
-using Common.Specifications.Impl;
+using SpecificationBenchmark.Specifications.Impl;
 
 namespace SpecificationBenchmark.Specifications
 {

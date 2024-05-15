@@ -52,5 +52,17 @@ namespace SpecificationBenchmark
         {
             return _manRepository.GetMany(_manSpec).ToArray();
         }
+
+        [Benchmark(Description = "List With Inline Specifications")]
+        public Man[] InlineListSpecification()
+        {
+            var spec = ManSpecification.CreateFullDataSpecification();
+            spec &= ManSpecification.WithAgeGreaterOrEqual(MinAge);
+            spec &= ManSpecification.WithAgeLessOrEqual(MaxAge);
+            spec &= ManSpecification.WithGender(Gender);
+            spec &= ManSpecification.OrderByName();
+
+            return _manRepository.GetMany(spec).ToArray();
+        }
     }
 }

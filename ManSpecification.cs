@@ -1,13 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using Common.Specifications.Impl;
-
-using SpecificationBenchmark.Models;
+﻿using SpecificationBenchmark.Models;
 using SpecificationBenchmark.Specifications;
+using SpecificationBenchmark.Specifications.Impl;
 
 namespace SpecificationBenchmark
 {
