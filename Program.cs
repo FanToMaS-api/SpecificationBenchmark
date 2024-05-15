@@ -5,6 +5,8 @@ using Bogus;
 using Microsoft.EntityFrameworkCore;
 
 using SpecificationBenchmark;
+using SpecificationBenchmark.Database;
+using SpecificationBenchmark.Models;
 
 try
 {

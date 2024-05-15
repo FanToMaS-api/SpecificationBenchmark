@@ -1,6 +1,6 @@
 using System.Linq.Expressions;
 
-namespace Common.Specifications
+namespace SpecificationBenchmark.Specifications
 {
     /// <summary>
     ///     Помогает комбинировать выражения

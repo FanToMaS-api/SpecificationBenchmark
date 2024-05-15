@@ -1,6 +1,8 @@
-﻿using Garage.Storages;
+﻿using SpecificationBenchmark.Database;
+using SpecificationBenchmark.Models;
+using SpecificationBenchmark.Specifications;
 
-namespace SpecificationBenchmark
+namespace SpecificationBenchmark.Repositories
 {
     /// <summary>
     ///     Хранилище моделей людей

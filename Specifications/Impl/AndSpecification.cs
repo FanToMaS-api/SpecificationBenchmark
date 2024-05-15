@@ -1,9 +1,9 @@
 using System;
 using System.Linq.Expressions;
 
-using Common.Helpers;
+using SpecificationBenchmark.Helpers;
 
-namespace Common.Specifications.Impl
+namespace SpecificationBenchmark.Specifications.Impl
 {
     /// <summary>
     ///     Спецификация И

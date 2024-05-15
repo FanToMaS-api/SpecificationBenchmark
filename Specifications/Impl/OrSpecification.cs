@@ -1,9 +1,9 @@
 using System;
 using System.Linq.Expressions;
 
-using Common.Helpers;
+using SpecificationBenchmark.Helpers;
 
-namespace Common.Specifications.Impl
+namespace SpecificationBenchmark.Specifications.Impl
 {
     /// <summary>
     ///     Спецификация ИЛИ
@@ -40,7 +40,7 @@ namespace Common.Specifications.Impl
         public override object Clone()
         {
             var left = (ISpecification<TEntity>)_leftSideSpecification.Clone();
-            var  right = (ISpecification<TEntity>)_rightSideSpecification.Clone();
+            var right = (ISpecification<TEntity>)_rightSideSpecification.Clone();
 
             return new OrSpecification<TEntity>(left, right);
         }

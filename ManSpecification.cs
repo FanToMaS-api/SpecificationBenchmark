@@ -5,7 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 using Common.Specifications.Impl;
-using Common.Specifications;
+
+using SpecificationBenchmark.Models;
+using SpecificationBenchmark.Specifications;
 
 namespace SpecificationBenchmark
 {

@@ -3,7 +3,9 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 using Npgsql.NameTranslation;
 
-namespace SpecificationBenchmark
+using SpecificationBenchmark.Models;
+
+namespace SpecificationBenchmark.Database
 {
     /// <summary>
     ///     База данных приложения

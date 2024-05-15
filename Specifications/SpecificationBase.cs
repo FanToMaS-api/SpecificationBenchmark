@@ -3,7 +3,7 @@ using System.Linq.Expressions;
 
 using Common.Specifications.Impl;
 
-namespace Common.Specifications
+namespace SpecificationBenchmark.Specifications
 {
     /// <summary>
     ///     Базовая спецификация для коллекций объектов

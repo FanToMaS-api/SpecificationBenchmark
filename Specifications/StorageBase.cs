@@ -1,8 +1,4 @@
-using Common.Specifications;
-
-using SpecificationBenchmark.Specifications;
-
-namespace Garage.Storages
+namespace SpecificationBenchmark.Specifications
 {
     /// <summary>
     ///     Общий набор методов для всех хранилищ

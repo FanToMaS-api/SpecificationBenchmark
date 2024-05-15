@@ -1,4 +1,4 @@
-﻿namespace SpecificationBenchmark
+﻿namespace SpecificationBenchmark.Models
 {
     /// <summary>
     ///     Определяет пол человека

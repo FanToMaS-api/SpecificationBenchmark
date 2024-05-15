@@ -1,6 +1,6 @@
 using System;
 
-namespace Common.Helpers
+namespace SpecificationBenchmark.Helpers
 {
     /// <summary>
     ///     Проверяет утверждения

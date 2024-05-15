@@ -1,5 +1,3 @@
-using Common.Specifications;
-
 namespace SpecificationBenchmark.Specifications
 {
     /// <summary>

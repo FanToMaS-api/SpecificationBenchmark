@@ -1,6 +1,9 @@
 ﻿using BenchmarkDotNet.Attributes;
 
-using Common.Specifications;
+using SpecificationBenchmark.Database;
+using SpecificationBenchmark.Models;
+using SpecificationBenchmark.Repositories;
+using SpecificationBenchmark.Specifications;
 
 namespace SpecificationBenchmark
 {

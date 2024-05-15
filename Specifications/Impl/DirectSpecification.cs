@@ -2,7 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
-namespace Common.Specifications.Impl
+using SpecificationBenchmark.Specifications;
+
+namespace SpecificationBenchmark.Specifications.Impl
 {
     /// <summary>
     ///     Прямая спецификация

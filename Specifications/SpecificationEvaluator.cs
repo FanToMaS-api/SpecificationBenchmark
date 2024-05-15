@@ -3,7 +3,7 @@ using System.Linq;
 
 using Microsoft.EntityFrameworkCore;
 
-namespace Common.Specifications
+namespace SpecificationBenchmark.Specifications
 {
     /// <summary>
     ///     Создает запрос к базе данных на основе спецификации

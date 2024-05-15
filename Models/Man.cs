@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace SpecificationBenchmark
+namespace SpecificationBenchmark.Models
 {
     /// <summary>
     ///     Человек

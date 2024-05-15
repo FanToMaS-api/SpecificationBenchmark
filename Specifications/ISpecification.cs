@@ -1,7 +1,7 @@
 using System;
 using System.Linq.Expressions;
 
-namespace Common.Specifications
+namespace SpecificationBenchmark.Specifications
 {
     /// <summary>
     ///     Базовый интерфейс спецификации

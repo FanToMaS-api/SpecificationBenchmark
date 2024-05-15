@@ -1,7 +1,7 @@
 using System;
 using System.Linq.Expressions;
 
-namespace Common.Specifications.Impl
+namespace SpecificationBenchmark.Specifications.Impl
 {
     /// <summary>
     ///     Пустая спецификация не возвращающая никакие данные

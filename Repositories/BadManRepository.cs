@@ -1,6 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace SpecificationBenchmark
+using SpecificationBenchmark.Database;
+using SpecificationBenchmark.Models;
+
+namespace SpecificationBenchmark.Repositories
 {
     /// <summary>
     ///     Неоптимальное хранилище моделей людей

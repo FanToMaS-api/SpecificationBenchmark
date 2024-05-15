@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 
-namespace SpecificationBenchmark
+namespace SpecificationBenchmark.Database
 {
     /// <summary>
     ///     Design-time фабрика для <see cref="AppDbContext"/>
