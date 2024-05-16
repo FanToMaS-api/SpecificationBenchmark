@@ -41,16 +41,16 @@ namespace SpecificationBenchmark
             _appDbContext.Dispose();
         }
 
-        [Benchmark(Description = "List")]
-        public Man[] List()
-        {
-            return _badManRepository.List(MinAge, MaxAge, Gender);
-        }
-
         [Benchmark(Description = "List With Specifications")]
         public Man[] ListSpecification()
         {
             return _manRepository.GetMany(_manSpec).ToArray();
+        }
+
+        [Benchmark(Description = "List")]
+        public Man[] List()
+        {
+            return _badManRepository.List(MinAge, MaxAge, Gender);
         }
 
         [Benchmark(Description = "List With Inline Specifications")]

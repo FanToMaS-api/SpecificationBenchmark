@@ -35,7 +35,7 @@ static void GenerateData(AppDbContext database)
 
     using var transaction = database.Database.BeginTransaction();
 
-    var count = 200_000; // 200 000 записей
+    var count = 2_000_000; // 2 000 000 записей
     for (var i = 0; i < count; i++)
     {
         var man = testUsers.Generate();
